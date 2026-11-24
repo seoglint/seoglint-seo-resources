@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Write a robots.txt File",
+  "description": "A step-by-step guide to writing, testing, and deploying robots.txt.",
+  "image": [
+    "https://www.example.com/images/robots-txt-guide-16x9.jpg",
+    "https://www.example.com/images/robots-txt-guide-4x3.jpg",
+    "https://www.example.com/images/robots-txt-guide-1x1.jpg"
+  ],
+  "datePublished": "2026-11-01T09:00:00+05:00",
+  "dateModified": "2026-11-20T14:30:00+05:00",
+  "author": {
+    "@type": "Person",
+    "name": "Jane Example",
+    "url": "https://www.example.com/authors/jane-example"
+  },
+  "publisher": {
+    "@id": "https://www.example.com/#organization"
+  },
+  "mainEntityOfPage": "https://www.example.com/guides/robots-txt"
+}
