@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Example Site Checker",
+  "url": "https://www.example.com/site-checker",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web browser",
+  "description": "Checks a web page's title, meta description, canonical URL, and structured data.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "publisher": {
+    "@id": "https://www.example.com/#organization"
+  }
+}
