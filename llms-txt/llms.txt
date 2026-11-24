@@ -1,0 +1,21 @@
+# Example Co
+
+> Example Co makes free website tools that check titles, meta descriptions, canonical URLs, sitemaps, robots.txt, and structured data.
+
+The tools run in the browser and do not require an account. Results are informational and do not guarantee rankings.
+
+## Tools
+
+- [Site Checker](https://www.example.com/site-checker.md): Audits one URL for common technical SEO issues
+- [Schema Generator](https://www.example.com/schema-generator.md): Builds JSON-LD for common schema.org types
+- [Robots.txt Generator](https://www.example.com/robots-txt-generator.md): Builds and tests robots.txt rules
+
+## Guides
+
+- [How to write a robots.txt file](https://www.example.com/guides/robots-txt.md): Syntax, testing, and AI crawler rules
+- [XML sitemap basics](https://www.example.com/guides/sitemaps.md): Format, limits, and submission
+
+## Optional
+
+- [About Example Co](https://www.example.com/about.md): Company background
+- [Changelog](https://www.example.com/changelog.md): Recent updates to the tools
