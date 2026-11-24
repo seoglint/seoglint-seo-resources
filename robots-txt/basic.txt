@@ -1,0 +1,10 @@
+# Basic robots.txt
+# Replace example.com and the paths below with your own.
+
+User-agent: *
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /search
+Allow: /
+
+Sitemap: https://www.example.com/sitemap.xml
