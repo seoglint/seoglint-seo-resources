@@ -1,0 +1,41 @@
+# robots.txt: stay visible in search and AI answers, opt out of AI training
+# Last verified against operator documentation: 2026-11-24
+#
+# A crawler follows only the most specific group that names it.
+# That is why the private paths are repeated in every named group.
+
+# --- Default rules for every other crawler ---
+User-agent: *
+Disallow: /admin/
+Disallow: /cart/
+Allow: /
+
+# --- Search crawlers: allowed ---
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: OAI-SearchBot
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+Disallow: /admin/
+Disallow: /cart/
+Allow: /
+
+# --- User-triggered fetchers: allowed ---
+# OpenAI and Perplexity say these may ignore robots.txt because a person
+# started the request. Anthropic says Claude-User honors it.
+User-agent: ChatGPT-User
+User-agent: Claude-User
+User-agent: Perplexity-User
+Disallow: /admin/
+Disallow: /cart/
+Allow: /
+
+# --- AI training: opted out ---
+# Blocking these does not remove the site from Google Search, ChatGPT search,
+# or Claude search. Google-Extended does not control AI Overviews.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+Disallow: /
+
+Sitemap: https://www.example.com/sitemap.xml
