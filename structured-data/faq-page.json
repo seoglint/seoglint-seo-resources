@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does robots.txt remove a page from Google?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. robots.txt controls crawling, not indexing. To keep a page out of search results, allow crawling and add a noindex robots meta tag."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where does robots.txt go?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At the root of each host, for example https://www.example.com/robots.txt. Each subdomain needs its own file."
+      }
+    }
+  ]
+}
